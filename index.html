@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CJ Web Design</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+          <link href="css/grayscale.css" rel="stylesheet">
+
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#download">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="masthead">
+      <div class="intro-body ">
+        <div class="container">
+          <div class="row">
+                
+            <div class="col-lg-6 mx-auto">
+                 
+                
+               
+<!--              <h1 class="brand-heading">Web Design</h1>-->
+                <p class="aim">Your Desisn is Our Aim.</p>
+              <a href="#about" class="btn btn-circle js-scroll-trigger">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="content-section text-center">
+        <img class="imagelogo" src="img/Weblogo4.2.png">
+        
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+
+            
+            <p>We Design Develop & Deploy Websites</p>
+            <p>We serve any purpose wether it be personal or buisness no job too small or big</p>
+            <p>Our skills include HTML, CSS, and custom JavaScript bringing you a better design everytime.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download-section content-section text-center">
+      <div class="container">
+        <div class="col-lg-8 mx-auto">
+          <h2>Services</h2>
+          <hr>
+          <ul>
+            <li>Fully Custom Designed Websites to your spec.</li>
+             <li>Full intergration including...</li> 
+              <li>Videos</li> 
+              <li>Pictures</li>
+              <li>Maps</li>
+              <li>Contacts</li>
+              <br>
+              <li>Design friendly on any device </li>
+               <li>Domain and Hosting</li>
+               <li>Seo</li>
+               <li>Simple elegant Designs</li>
+              <br>
+              <hr>
+             <p>Get Beautifull Get noticed we have all the tools and knowledge to get you up and running Smoothly efficiently reliably</p>
+              
+            
+            
+            
+            </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Contact CJ Web Design</h2>
+            <p>Feel free to get in touch and see how we can help you
+              </p>
+            <ul class="list-inline banner-social-buttons">
+              <li class="list-inline-item">
+                <a href="mailto:pglen123@gmail.com?Subject=Hello%20CJ Web Design" class="btn btn-default btn-lg">
+                  <i class="fa fa-envelope fa-fw"></i>
+                  <span class="network-name">E-mail</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="tel:07535235522" class="btn btn-default btn-lg">
+                  <i class="fa fa-phone fa-fw"></i>
+                  <span class="network-name">Phone</span>
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <div id="map"></div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container text-center">
+        <p>Copyright &copy; CJ Web Design 2017</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    
+      <script>
+                function initMap() {
+                  var glasgow = {lat: 55.861141, lng: -4.260125};
+                  var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 11,
+                    center: glasgow
+                  });
+                  var marker = new google.maps.Marker({
+                    position: glasgow,
+                    map: map
+                  });
+                }
+              </script>
+              <script async defer
+              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAe1d_cYQMvzRizoVwrqEedLXNZH86SlZY&callback=initMap">
+            </script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+
+  </body>
+
+</html>
